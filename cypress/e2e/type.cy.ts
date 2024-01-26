@@ -14,5 +14,6 @@ describe('Text Input', () => {
       console.log(text.text(),'text')
       cy.get('[type="button"]').should('have.text',textName)
     })
+    //add
   })
 })
