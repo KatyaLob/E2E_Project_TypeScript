@@ -1,12 +1,19 @@
 describe('', () => {
+
+    beforeEach(() => {
+        cy.visit('/home')
+    })
+
     it('Verify page', () => {
-        cy.visit('https://uitestingplayground.com/home')
         cy.title().should('eq','UI Test Automation Playground')
     });
+
     it('Verify page', () => {
-        cy.visit('https://uitestingplayground.com/home')
         cy.window().title().then(element=> {
             cy.log(element)
+            //expect(element).to.eq('UI Test Automation Playground').to.be.true
+            expect(element).to.eq('UI Test Automation Playground').to.eq('UI Test Automation Playground')
+            cy.wrap(element).should('eq','UI Test Automation Playground')
         })
     });
 });
