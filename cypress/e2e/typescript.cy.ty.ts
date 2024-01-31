@@ -32,7 +32,7 @@ function fullName(a:stringTestType,b:stringTestType):void {
     console.log('My full name is ' + a.lastName + ' ' + b.firstName);
 }
 let obj = {
-    key:val
+    key:value
 }
 string2(2,"2")
 string2(2,2)
