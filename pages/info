@@ -1,0 +1,5 @@
+git status
+git add .
+git commit -m "cy.session"
+ git push origin master
+
