@@ -1,5 +1,4 @@
 const textName = 'Cypress'
-
 describe('Text Input', () => {
   it('text test', () => {
     cy.visit('/textinput')
