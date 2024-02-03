@@ -8,13 +8,17 @@ export default defineConfig({
       // implement node event listeners here
     },
     env: {
-      stage: 'https://stage.pasv.us/course',
-      prod: 'https://coding.pasv.us/course',
+      stage: 'https://stage.pasv.us/user/login',
+      prod: 'https://coding.pasv.us',
       test: 'Hello World!',
       demoQA:'https://demoqa.com',
-      expected_conditions: 'https://play1.automationcamp.ir/expected_conditions.html'
+      expected_conditions: 'https://play1.automationcamp.ir/expected_conditions.html',
+      email: 'klobynicheva@hotmail.com',
+      password: 'HelloWorld1'
     },
   },
+  viewportWidth: 1200,
+  viewportHeight: 1400,
   retries: {
     runMode: 2,
     openMode: 1,
