@@ -14,7 +14,8 @@ export default defineConfig({
       demoQA:'https://demoqa.com',
       expected_conditions: 'https://play1.automationcamp.ir/expected_conditions.html',
       email: 'klobynicheva@hotmail.com',
-      password: 'HelloWorld1'
+      password: 'HelloWorld1',
+      herokuapp: 'https://the-internet.herokuapp.com'
     },
   },
   viewportWidth: 1200,
