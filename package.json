@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "open": "cypress open --e2e --browser chrome"
+    "open": "cypress open --e2e --browser chrome",
+    "cypress-run": "cypress run --browser chrome --spec cypress/e2e/autoFill.cy.ts"
   },
   "keywords": [],
   "author": "katya",
@@ -14,6 +15,7 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
+    "cypress-mochawesome-reporter": "^3.8.1",
     "dotenv": "^16.4.1"
   }
 }
