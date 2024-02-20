@@ -12,14 +12,16 @@ export default defineConfig({
             // implement node event listeners here
         },
         env: {
-            stage: 'https://stage.pasv.us/user/login',
+            stage: 'https://stage.pasv.us',
             prod: 'https://coding.pasv.us',
             test: 'Hello World!',
             demoQA: 'https://demoqa.com',
             expected_conditions: 'https://play1.automationcamp.ir/expected_conditions.html',
-            email: 'klobynicheva@hotmail.com',
-            password: 'HelloWorld1',
-            herokuapp: 'https://the-internet.herokuapp.com'
+            // email: 'klobynicheva@hotmail.com',
+            // password: 'HelloWorld1',
+            herokuapp: 'https://the-internet.herokuapp.com',
+            email: 'katyaloby@gmail.com',
+            password:'Poop2024'
         },
     },
     viewportWidth: 1200,

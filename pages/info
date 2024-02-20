@@ -1,5 +1,5 @@
 git status
 git add .
-git commit -m "text"
+git s
  git push origin master
 
