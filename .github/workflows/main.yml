@@ -2,8 +2,8 @@ name: Cypress Action Guide
 description: Runs Cypress tests
 
 on: push
-  
-  // то что будет запускться пайпланом
+
+
 jobs:
       cypress-run:
         runs-on: ubuntu-22.04
